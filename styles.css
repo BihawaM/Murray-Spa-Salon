@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    background-image: url(https://github.com/BihawaM/git-and-github-walk-through/blob/master/slide.jpg?raw=true);
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)rgba(0, 0, 0, 0.5));
+    height: 400px;
+    width: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Playball', cursive;
+    background-color: darkgrey;
+    scroll-behavior: smooth;
+    mix-blend-mode: normal;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    /* Center text */
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: darkgrey;
+    color: #6e6b6e;
+    transition: top 0.3s;
+    /* Transition effect when sliding down (and up) */
+}
+
+#overlay {
+    position: sticky;
+    top: 0;
+}
+
+nav p {
+    font-family: 'Playball', cursive;
+    font-size: 24px;
+    line-height: 55px;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    font-family: 'Playball', cursive;
+    color: black;
+    font-size: 24px;
+    padding: 22px 14px;
+    display: block;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caption {
+    text-align: center;
+    font-family: 'Playball', cursive;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: darkgrey;
+    color: #6e6b6e;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    top: 80%;
+}
+
+nav ul li ul li a {
+    padding: 8px 14px;
+}
+
+nav ul li ul li {
+    width: 180px;
+    border-radius: 4px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+.logo {
+    height: 60px;
+    width: 70px;
+    float: left;
+}
+
+nav ul li ul li a:hover {
+    background-color: darkgrey;
+}
+
+.content {
+    height: 300px;
+    width: 100%;
+}
+
+body {
+    background-color: darkgrey;
+    color: da;
+}
+
+h1 {
+    font-family: 'Playball', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    background-color: darkgrey;
+    text-align: center;
+}
